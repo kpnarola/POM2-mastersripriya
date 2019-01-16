@@ -26,7 +26,7 @@ public class CrossBrowser extends Utils {
 
 
             } else if (browser.equalsIgnoreCase("chrome")) {
-               System.setProperty("webdriver.chrome.driver", "src\\browserdriver\\chromedriver.exe");
+               System.setProperty("webdriver.chrome.driver", "src\\test\\Resources\\BrowserDriver\\chromedriver.exe");
 
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("disable-infobars");
